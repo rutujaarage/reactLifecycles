@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import UnMount from './Component/UnMount';
+// import DidUpdate from './Component/DidUpdate';
+// import GetSnap from './Component/GetSnap';
+// import Update from './Component/Update';
+// import GetDerived2 from './Component/GetDerived2';
+// import GetDerive from './Component/GetDerive';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+{/* <Constructor /> */}
+{/* <GetDerive favColour="yellow" /> */}
+
+{/* <GetDerived2 favColour="yellow" /> */}
+{/* <Update /> */}
+
+{/* <GetSnap /> */}
+
+{/* <DidUpdate /> */}
+
+<UnMount />
+
     </div>
   );
 }
